@@ -3,7 +3,7 @@ simple-tooltips
 
 Simple tooltips for jQuery.
 
-What's different than millions of other tooltips? It's only 658 bytes minified, follows cursor move, adapts position to window borders. Feel free to use, modify, etc.
+What's different than millions of other tooltips? It's only 659 bytes minified, follows cursor move, adapts position to window borders. Feel free to use, modify, etc.
 
 How to use
 -----
@@ -13,20 +13,21 @@ How to use
 ```
 <script type="text/javascript">
 $(function(){
-  $('.selector').tooltip();
+	$('.selector').tooltip();
 });
 </script>
 
 <style type="text/css">
 .tooltip {
-  position:absolute;
-  left:0;
-  top:0;
-  z-index:100;
-  color:#fff;
-  background:#212121;
-  padding:10px;
-  max-width:400px;}
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	color: #fff;
+	background: #212121;
+	padding: 10px;
+	max-width: 400px;
+}
 </style>
 ```
 
@@ -37,7 +38,7 @@ $(function(){
 
 4\. Demo
 
-http://www.coax.hr/tooltips
+http://www.coax.hr/github/simple-tooltips/
 
 Changelog
 -----
